@@ -1,0 +1,13 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,S3 Standard,0,10.27,123.24,USD,S3 Standard storage (300 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,61.44,737.28,USD,"DT Inbound: All other regions (3 TB per month), DT Outbound: All other regions (3 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,157.86,1894.32,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),,Amazon CloudFront,0,53,636.00,USD,"Data transfer out to internet (500 GB per month), Data transfer out to origin (500 GB per month), Number of requests (HTTPS) (500000 per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,3071.69,36860.28,USD,"Operating system (Linux), Quantity (4), Pricing strategy (EC2 Instance Savings Plans 3 Year No Upfront), Storage amount (50 GB), Instance type (r6g.12xlarge)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,3536.85,42442.20,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Amazon Aurora PostgreSQL-Compatible DB,45228,1369.3899999999999,61660.68,USD,"Quantity (2), Instance type (db.r5.8xlarge), Pricing strategy (Reserved 3yr Partial Upfront), Storage amount (500 GB), Additional backup storage (500 GB)"
+
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
