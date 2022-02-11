@@ -1,11 +1,13 @@
 ﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-My Estimate,US East (N. Virginia),,S3 Standard,0,10.27,123.24,USD,S3 Standard storage (300 GB per month)
-My Estimate,US East (N. Virginia),,Data Transfer,0,61.44,737.28,USD,"DT Inbound: All other regions (3 TB per month), DT Outbound: All other regions (3 TB per month)"
-My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,157.86,1894.32,USD,Number of NAT Gateways (2)
-My Estimate,US East (N. Virginia),,Amazon CloudFront,0,53,636.00,USD,"Data transfer out to internet (500 GB per month), Data transfer out to origin (500 GB per month), Number of requests (HTTPS) (500000 per month)"
-My Estimate,US East (N. Virginia),,Amazon EC2,0,4089.02,49068.24,USD,"Operating system (Linux), Quantity (4), Pricing strategy (EC2 Instance Savings Plans 3 Year No Upfront), Storage amount (50 GB), Instance type (r6g.metal)"
-My Estimate,US East (N. Virginia),,Application Load Balancer,0,3536.85,42442.20,USD,Number of Application Load Balancers (2)
-My Estimate,US East (N. Virginia),,Amazon Aurora PostgreSQL-Compatible DB,0,13661.859999999999,163942.32,USD,"Quantity (2), Instance type (db.r5.16xlarge), Pricing strategy (OnDemand), Storage amount (500 GB), Additional backup storage (500 GB)"
+My Estimate,US East (N. Virginia),s3,S3 Standard,0,27.19,326.28,USD,S3 Standard storage (1 TB per month)
+My Estimate,US East (N. Virginia),s3,S3 Standard - Infrequent Access,0,1.25,15.00,USD,S3 Infrequent Access storage (100 GB per month)
+My Estimate,US East (N. Virginia),s3,Data Transfer,0,0,0.00,USD,"DT Inbound: Internet (10 GB per month), DT Outbound: Not selected (0 TB per month)"
+My Estimate,US East (N. Virginia),nat,Amazon Virtual Private Cloud (VPC),0,131.4,1576.80,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),cloudFront,Amazon CloudFront,0,1.43,17.16,USD,"Number of requests (HTTPS) (1000000 per month), Data transfer out to internet (5 GB per month)"
+My Estimate,US East (N. Virginia),elb,Application Load Balancer,0,132.21,1586.52,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),ec2,Amazon EC2,0,12447.24,149366.88,USD,"Operating system (Red Hat Enterprise Linux), Quantity (4), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage amount (500 GB), Instance type (m6i.32xlarge)"
+My Estimate,US East (N. Virginia),rds,Amazon RDS for MySQL,0,6170.16,74041.92,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (500 GB), Quantity (2), Instance type (db.m5.4xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (20 TB)"
+My Estimate,US East (N. Virginia),,Amazon Elastic Block Store (EBS),0,632.35,7588.20,USD,"Number of volumes (4), Average duration each instance runs (730 hours per month), Storage amount per volume (1 TB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB)"
 
 
 

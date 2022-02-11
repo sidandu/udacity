@@ -1,11 +1,13 @@
 ﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
-My Estimate,US East (N. Virginia),,S3 Standard,0,5.27,63.24,USD,S3 Standard storage (100 GB per month)
-My Estimate,US East (N. Virginia),,Data Transfer,0,0,0.00,USD,
-My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,110.7,1328.40,USD,Number of NAT Gateways (2)
-My Estimate,US East (N. Virginia),,Amazon CloudFront,0,11,132.00,USD,"Data transfer out to internet (100 GB per month), Data transfer out to origin (100 GB per month), Number of requests (HTTPS) (500000 per month)"
-My Estimate,US East (N. Virginia),,Amazon EC2,0,359.01,4308.12,USD,"Operating system (Linux), Quantity (4), Pricing strategy (EC2 Instance Savings Plans 3 Year No Upfront), Storage amount (50 GB), Instance type (t4g.2xlarge)"
-My Estimate,US East (N. Virginia),,Application Load Balancer,0,2368.85,28426.20,USD,Number of Application Load Balancers (2)
-My Estimate,US East (N. Virginia),,Amazon Aurora PostgreSQL-Compatible DB,170060,113.06,171416.72,USD,"Quantity (2), Instance type (db.r4.16xlarge), Pricing strategy (Reserved 3yr All Upfront), Storage amount (500 GB), Additional backup storage (500 GB)"
+My Estimate,US East (N. Virginia),s3,S3 Standard,0,27.19,326.28,USD,S3 Standard storage (1 TB per month)
+My Estimate,US East (N. Virginia),s3,S3 Standard - Infrequent Access,0,1.25,15.00,USD,S3 Infrequent Access storage (100 GB per month)
+My Estimate,US East (N. Virginia),s3,Data Transfer,0,0,0.00,USD,"DT Inbound: Internet (10 GB per month), DT Outbound: Not selected (0 TB per month)"
+My Estimate,US East (N. Virginia),nat,Amazon Virtual Private Cloud (VPC),0,131.4,1576.80,USD,Number of NAT Gateways (2)
+My Estimate,US East (N. Virginia),cloudFront,Amazon CloudFront,0,1.43,17.16,USD,"Number of requests (HTTPS) (1000000 per month), Data transfer out to internet (5 GB per month)"
+My Estimate,US East (N. Virginia),elb,Application Load Balancer,0,132.21,1586.52,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),ec2,Amazon EC2,0,3055.92,36671.04,USD,"Operating system (SUSE Linux Enterprise Server), Quantity (4), Pricing strategy (On-Demand Instances), Storage amount (2 TB), Instance type (m6g.4xlarge)"
+My Estimate,US East (N. Virginia),rds,Amazon RDS for MySQL,0,2847.2,34166.40,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (500 GB), Quantity (2), Instance type (db.m1.large), Utilization (On-Demand only) (100 %Utilized/Month), Deployment option (Multi-AZ), Pricing strategy (OnDemand), Additional backup storage (20 TB)"
+My Estimate,US East (N. Virginia),,Amazon Elastic Block Store (EBS),0,8.99,107.88,USD,"Number of volumes (1), Average duration each instance runs (730 hours per month), Storage amount per volume (30 GB), Snapshot Frequency (2x Daily), Amount changed per snapshot (3 GB)"
 
 
 
