@@ -19,4 +19,4 @@ NIST: https://nvd.nist.gov/
 AWStealth: https://github.com/cyberark/SkyArk/tree/master/AWStealth
 
 ### Example vulnerability
-Unsecured privileged users - no MFA and no constrained permission condition 
+Unsecured privileged users - no MFA and no constrained permission condition.
