@@ -2,7 +2,7 @@
 
 UnauthorizedAccess:EC2/SSHBruteForce
 
-i-050be6e22b4c6b612 is performing SSH brute force attacks against 10.192.10.112.
+Attack simulation server instance is performing SSH brute force attacks.
 Brute force attacks are used to gain unauthorized access to your instance by guessing the SSH password
 
 # Research the AWS Guard Duty documentation page and explain how GuardDuty may have detected this attack - i.e. what was its source of information.
