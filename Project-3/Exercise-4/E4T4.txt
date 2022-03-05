@@ -5,8 +5,7 @@ Remove ssh access from the instance. Use Systems Manager if needed.
 
 # Assuming the IAM permissions for the S3 bucket are still insecure, would creating VPC private endpoints for S3 prevent the unauthorized access to the secrets bucket.
 
-It will not prevent unauthorized access to the secrets bucket. It will make communication
-traffic of services within VCP to S3 to stay within AWS network and not public internet. 
+It will not prevent unauthorized access to the secrets bucket. It will make communication traffic of services within VCP to S3 to stay within AWS network and not public internet. 
 
 # Will applying default encryption setting to the s3 buckets encrypt the data that already exists?
 
